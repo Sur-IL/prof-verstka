@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopping cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--      start header      -->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="logo__list">
+                    <a href=""><img class="logo__img" src="img/logo.svg" alt="logo"></a>
+                    <a href=""><img src="img/search.svg" alt="search"></a>
+                </div>
+                <div class="menu__list">
+                    <img class="menu__icon" src="img/menu.svg" alt="menu">
+                    <a href=""><img class="account" src="img/account.svg" alt="account"></a>
+                    <span class="basket__wrap">
+                        <a href=""><img class="basket" src="img/basket.svg" alt="basket"></a>
+                        <span class="basket-count">5</span>
+                        <span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--      end header      -->
+    <!--      start arrivals    -->
+    <div class="shoppingCart">
+        <div class="container">
+            <div class="shoppingCart__heading">SHOPPING CART</div>
+        </div>
+    </div>
+    <!--      end arrivals      -->
+    <!--      start cart        -->
+    <div class="cart">
+        <div class="container">
+            <div class="cart__left">
+                <div class="cart__unit">
+                    <img class="cart__unit_img" src="img/cart/cart-photo1.png" alt="">
+                    <div class="unit__spec">
+                        <div class="spec__heading">MANGO PEOPLE <br> T-SHIRT</div>
+                        <div class="spec__price">Price: <span class="spec__brand">$300</span></div>
+                        <div class="spec__color">Color: Red</div>
+                        <div class="spec__size">Size: XI</div>
+                        <div class="spec__quantity">
+                            Quantity:
+                            <input class="spec__input" type="text" value="2">
+                        </div>
+                    </div>
+                    <img class="cart__unitClose" src="img/cart/close-cart.svg" alt="">
+                </div>
+                <div class="cart__unit cart__unit_margin">
+                    <img class="cart__unit_img" src="img/cart/cart-photo2.png" alt="">
+                    <div class="unit__spec">
+                        <div class="spec__heading">MANGO PEOPLE <br> T-SHIRT</div>
+                        <div class="spec__price">Price: <span class="spec__brand">$300</span></div>
+                        <div class="spec__color">Color: Red</div>
+                        <div class="spec__size">Size: XI</div>
+                        <div class="spec__quantity">
+                            Quantity:
+                            <input class="spec__input" type="text" value="2">
+                        </div>
+                    </div>
+                    <img class="cart__unitClose" src="img/cart/close-cart.svg" alt="">
+                </div>
+                <div class="button__box">
+                    <button class="cart__leftButton cart__leftButton_margin">CLEAR SHOPPING CART</button>
+                    <button class="cart__leftButton">CONTINUE SHOPPING</button>
+                </div>
+            </div>
+            <div class="cart__right">
+                <div class="cart__rightForm">
+                    <div class="form__heading">SHOPPING ADRESS</div>
+                    <input class="rightForm__countryInput" type="text" placeholder="Bangladesh"> <br>
+                    <input type="text" placeholder="State"> <br>
+                    <input type="text" placeholder="Postcode / Zip"> <br>
+                    <button class="form__button">GET A QUOTE</button>
+                </div>
+                <div class="cart__total">
+                    <p class="total__sub">SUB TOTAL <span class="sub__price">$900</span></p>
+                    <p class="total__grand">GRAND TOTAL <span class="grand__price">$900</span></p>
+                    <hr class="total__shape">
+                    <button class="total__button">PROCCED TO CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--      end cart          -->
+    <!--      start subscribe    -->
+    <div class="subscribe">
+        <div class="subscribe__box container">
+            <div class="about">
+                <img src="img/sub-img.png" alt="...">
+                <p class="about__text">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
+                </p>
+            </div>
+            <div class="subscribe__form">
+                <h2 class="sub__heading">SUBSCRIBE</h2>
+                <p class="sub__text">
+                    FOR OUR NEWSLETTER AND PROMOTION
+                </p>
+                <div>
+                    <input class="sub__input" type="text" placeholder="Enter Your Email">
+                    <button class="sub__button">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--      end subscribe    -->
+    <!--      start footer    -->
+    <footer class="footer">
+        <div class="footer__box container">
+            <p class="copy">
+                © 2021 Brand All Rights Reserved.
+            </p>
+            <div class="footer__icons">
+                <img src="img/footer/facebook.svg" alt="...">
+                <img src="img/footer/instagram.svg" alt="...">
+                <img src="img/footer/pinterest.svg" alt="...">
+                <img src="img/footer/twitter.svg" alt="...">
+            </div>
+        </div>
+    </footer>
+    <!--      end footer      -->
+    <script src="app.js"></script>
+</body>
+
+</html>
